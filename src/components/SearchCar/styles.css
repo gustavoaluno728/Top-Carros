@@ -1,0 +1,128 @@
+.container-search {
+    margin-bottom: 60px;
+    margin-left: 0px;
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 123px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+}
+
+.input-test {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+}
+
+.search {
+    width: 400px;
+    padding-left: 20px;
+}
+.container-search button {
+    width: 90px;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #00285F;
+    color: #ffffff;
+}
+
+.container-search h6{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+@media(min-width: 320px){
+    .container-search {
+        padding: 27px;
+        padding-left: 10px;
+        min-width: 298px;
+    height: 120px;
+    margin-top: -05px;
+    }
+    .search{
+        padding-left: 20px;
+    }
+    .input-test {
+        width: 150px;
+        height: 40px;
+    padding-left: 15px;
+    }
+}
+
+@media(min-width: 576px){
+    .container-search {
+        padding: 27px;
+        padding-left: 10px;
+        width: max-content;
+        min-width: 530px;
+    height: 120px;
+    }
+    .input-test {
+        width: 400px;
+        height: 40px;
+    padding-left: 15px;
+    }
+   
+    }
+
+    @media(min-width: 768px){
+        .container-search {
+            padding: 27px;
+            padding-left: 10px;
+            width: max-content;
+            min-width: 710px;
+        height: 120px;
+        }
+        .input-test {
+            width: 560px;
+            height: 40px;
+        padding-left: 15px;
+        }
+        .search{
+            width: 580px;
+        }
+        }
+
+        @media(min-width: 992px){
+            .container-search {
+                padding: 27px;
+                padding-left: 10px;
+                width: max-content;
+                min-width: 935px;
+            height: 120px;
+            }
+            .input-test {
+                width: 780px;
+                height: 40px;
+            padding-left: 15px;
+            }
+            .search{
+                width: 800px;
+            }
+            }
+
+            @media(min-width: 1200px){
+                .container-search {
+                    margin-left: 30px;
+                    padding: 27px;
+                    padding-left: 10px;
+                    width: max-content;
+                    min-width: 1060px;
+                    height: 120px;
+                    
+                    
+                }
+                .input-test {
+                    width: 800px;
+                    height: 40px;
+                    margin-left: 50px;
+                }
+                .search{
+                    width: 870px;
+                }
+                }

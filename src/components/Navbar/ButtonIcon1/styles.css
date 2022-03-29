@@ -1,0 +1,59 @@
+.btn-container1{
+    display: flex;
+    padding-left: 26px;
+}
+
+.btn-container1 button{
+    width: 210px;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #00285F;
+    background-color: #00285F;
+}
+
+.btn1 h6{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+@media (min-width: 320px) {
+    .btn-container1 button{
+        width: 450px;
+    }
+    .btn1 h6{
+        font-size: 18px;
+    }
+  }
+
+@media(min-width: 576px){
+    .btn-container1 button{
+        width: 450px;
+    }
+.btn1 h6{
+    font-size: 18px;
+}
+}
+
+@media(min-width: 768px){
+    .btn-container1 button{
+        width: 450px;
+    }
+.btn1 h6{
+    font-size: 18px;
+}
+}
+
+@media(min-width: 1200px){
+    .btn-container1 button{
+        width: 450px;
+    }
+.btn1 h6{
+    font-size: 18px;
+}
+}
